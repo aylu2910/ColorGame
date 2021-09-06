@@ -1,0 +1,107 @@
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 15px;
+
+}
+.container{
+    height: 600px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+body{
+    background-color: #dbc2fc;
+    margin: 0 auto
+}
+h1{
+    color: white;
+    background-color: #8f33bd;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+#colorDisplay{
+    display: block;
+    font-size: 200%;
+}
+#message{
+    color: black;
+}
+#stripe{
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.selected{
+    background-color: #8f33bd;
+    color: aliceblue;
+}
+
+
+button{
+    appearance: auto;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: #8f33bd;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+}
+
+
+.reset{
+    height: 40px;
+    width: 100px;
+    bottom: 9px;
+    position: relative;
+    right: 10%;
+}
+#easyMode,#hardMode{
+    height: 40px;
+    width: 100px;
+    position: relative;
+    left: 10%;
+    display: inline-block;
+
+}
+button:hover {
+    color: white;
+    background: #8f33bd;
+}
+
+.messageContainer{
+    width: 50px;
+    display: inline-block;
+
+}
